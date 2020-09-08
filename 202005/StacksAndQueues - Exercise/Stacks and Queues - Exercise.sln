@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Truck Tour", "7. Truck Tour\7. Truck Tour.csproj", "{13EB690C-31D1-43AD-8DA5-5574EF4E01C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Cups and Bottles", "12. Cups and Bottles\12. Cups and Bottles.csproj", "{00EB9D00-AC3C-480C-B66C-BA080956DF65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12. Cups and Bottles", "12. Cups and Bottles\12. Cups and Bottles.csproj", "{00EB9D00-AC3C-480C-B66C-BA080956DF65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Key Revolver", "11. Key Revolver\11. Key Revolver.csproj", "{5B903D92-BDA2-4BC7-8C6B-3807EC68B470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{00EB9D00-AC3C-480C-B66C-BA080956DF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00EB9D00-AC3C-480C-B66C-BA080956DF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00EB9D00-AC3C-480C-B66C-BA080956DF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B903D92-BDA2-4BC7-8C6B-3807EC68B470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B903D92-BDA2-4BC7-8C6B-3807EC68B470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B903D92-BDA2-4BC7-8C6B-3807EC68B470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B903D92-BDA2-4BC7-8C6B-3807EC68B470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
