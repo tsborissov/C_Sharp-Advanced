@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Fast Food", "4. Fast Foo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Fashion Boutique", "5. Fashion Boutique\5. Fashion Boutique.csproj", "{B8D94A74-DDF1-41BD-8CB2-D10BA7F7A3D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Songs Queue", "6. Songs Queue\6. Songs Queue.csproj", "{BE53A453-0301-4065-A96A-CBDF24A66947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Songs Queue", "6. Songs Queue\6. Songs Queue.csproj", "{BE53A453-0301-4065-A96A-CBDF24A66947}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. Balanced Parentheses", "8. Balanced Parentheses\8. Balanced Parentheses.csproj", "{E18C0145-5528-4191-956D-9361515DA97B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9. Simple Text Editor", "9. Simple Text Editor\9. Simple Text Editor.csproj", "{C2868813-7116-4840-8EAC-7E27AA978C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Crossroads", "10.Crossroads\10.Crossroads.csproj", "{7B3FA00C-4203-47A2-B928-220DD8846FBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{BE53A453-0301-4065-A96A-CBDF24A66947}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE53A453-0301-4065-A96A-CBDF24A66947}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE53A453-0301-4065-A96A-CBDF24A66947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18C0145-5528-4191-956D-9361515DA97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18C0145-5528-4191-956D-9361515DA97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18C0145-5528-4191-956D-9361515DA97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18C0145-5528-4191-956D-9361515DA97B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2868813-7116-4840-8EAC-7E27AA978C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2868813-7116-4840-8EAC-7E27AA978C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2868813-7116-4840-8EAC-7E27AA978C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2868813-7116-4840-8EAC-7E27AA978C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3FA00C-4203-47A2-B928-220DD8846FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3FA00C-4203-47A2-B928-220DD8846FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3FA00C-4203-47A2-B928-220DD8846FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3FA00C-4203-47A2-B928-220DD8846FBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
