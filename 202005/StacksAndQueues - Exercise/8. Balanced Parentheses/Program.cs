@@ -18,58 +18,60 @@ namespace _8._Balanced_Parentheses
             bool isSquareParanthBallanced = true;
             bool isCurlyParanthBallanced = true;
 
-
-            for (int i = 0; i < parenthesesSequence.Length / 2; i++)
+            if (parenthesesSequence.Length % 2 == 0)
             {
-                openingParantheses.Push(parenthesesSequence[i]);
-            }
-
-
-            for (int j = parenthesesSequence.Length / 2; j < parenthesesSequence.Length; j++)
-            {
-
-                switch (parenthesesSequence[j])
+                for (int i = 0; i < parenthesesSequence.Length; i++)
                 {
-                    case ')':
-
-                        if (openingParantheses.Pop() != '(')
+                    if (parenthesesSequence[i] == '(' || parenthesesSequence[i] == '{' || parenthesesSequence[i] == '[')
+                    {
+                        openingParantheses.Push(parenthesesSequence[i]);
+                    }
+                    else
+                    {
+                        switch (parenthesesSequence[i])
                         {
-                            isRoundParanthBallanced = false;
+                            case ')':
+
+                                if (openingParantheses.Pop() != '(')
+                                {
+                                    isRoundParanthBallanced = false;
+                                }
+
+                                break;
+
+                            case ']':
+
+                                if (openingParantheses.Pop() != '[')
+                                {
+                                    isSquareParanthBallanced = false;
+                                }
+
+                                break;
+
+                            case '}':
+
+                                if (openingParantheses.Pop() != '{')
+                                {
+                                    isCurlyParanthBallanced = false;
+                                }
+
+                                break;
+
                         }
+                    }
 
-                        break;
-
-                    case ']':
-
-                        if (openingParantheses.Pop() != '[')
-                        {
-                            isSquareParanthBallanced = false;
-                        }
-
-                        break;
-
-                    case '}':
-
-                        if (openingParantheses.Pop() != '{')
-                        {
-                            isCurlyParanthBallanced = false;
-                        }
-
-                        break;
-
-                    default:
-
+                    if (!isCurlyParanthBallanced || !isRoundParanthBallanced || !isSquareParanthBallanced)
+                    {
                         result = "NO";
-
                         break;
-                }
-
-                if (!isCurlyParanthBallanced || !isRoundParanthBallanced || !isSquareParanthBallanced)
-                {
-                    result = "NO";
-                    break;
+                    }
                 }
             }
+            else
+            {
+                result = "NO";
+            }
+            
 
             Console.WriteLine(result);
 

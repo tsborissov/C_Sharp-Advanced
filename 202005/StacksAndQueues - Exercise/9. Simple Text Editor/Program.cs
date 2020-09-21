@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace _9._Simple_Text_Editor
 {
@@ -10,27 +9,22 @@ namespace _9._Simple_Text_Editor
         static void Main(string[] args)
         {
 
-            int n = int.Parse(Console.ReadLine());
-
             Stack<string> undoStack = new Stack<string>();
-
             string text = string.Empty;
 
-            for (int i = 0; i < n; i++)
+            int count = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < count; i++)
             {
-                string[] tokens = Console.ReadLine().Split(' ', 2).ToArray();
+                string[] input = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-                string command = tokens[0];
-
-                switch (command)
+                switch (input[0])
                 {
                     case "1":
 
                         undoStack.Push(text);
 
-                        string argument = tokens[1];
-
-                        text += argument;
+                        text += input[1];
 
                         break;
 
@@ -38,18 +32,17 @@ namespace _9._Simple_Text_Editor
 
                         undoStack.Push(text);
 
-                        int count = int.Parse(tokens[1]);
-                        int startIndex = text.Length - count;
+                        int length = int.Parse(input[1]);
 
-                        text = text.Remove(startIndex, count);
+                        text = text.Substring(0, text.Length - length);
 
                         break;
 
                     case "3":
 
-                        int index = int.Parse(tokens[1]) - 1;
+                        int index = int.Parse(input[1]) - 1;
 
-                        Console.WriteLine(text.ElementAt(index));
+                        Console.WriteLine(text[index]);
 
                         break;
 
@@ -63,7 +56,6 @@ namespace _9._Simple_Text_Editor
                         break;
                 }
             }
-
         }
     }
 }
