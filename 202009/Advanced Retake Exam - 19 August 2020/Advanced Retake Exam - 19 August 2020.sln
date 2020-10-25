@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowerWreaths", "FlowerWreaths\FlowerWreaths.csproj", "{8A0AF865-5885-47A7-8C26-772F47726784}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bee", "Bee\Bee.csproj", "{810C59ED-9032-45CC-B316-51376D31AAD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinic", "VetClinic\VetClinic.csproj", "{9278B6D7-088E-4795-B72E-B9DB3B8C22BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A0AF865-5885-47A7-8C26-772F47726784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0AF865-5885-47A7-8C26-772F47726784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0AF865-5885-47A7-8C26-772F47726784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0AF865-5885-47A7-8C26-772F47726784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810C59ED-9032-45CC-B316-51376D31AAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810C59ED-9032-45CC-B316-51376D31AAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810C59ED-9032-45CC-B316-51376D31AAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810C59ED-9032-45CC-B316-51376D31AAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9278B6D7-088E-4795-B72E-B9DB3B8C22BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9278B6D7-088E-4795-B72E-B9DB3B8C22BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9278B6D7-088E-4795-B72E-B9DB3B8C22BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9278B6D7-088E-4795-B72E-B9DB3B8C22BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FDFA9C2-3C8E-439A-8832-B0CD026D5393}
+	EndGlobalSection
+EndGlobal

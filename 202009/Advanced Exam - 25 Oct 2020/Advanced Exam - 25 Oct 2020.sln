@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling", "Scheduling\Scheduling.csproj", "{B39059F7-BF26-46C1-9BC7-31D8D9D316AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassroomProject", "Classroom\ClassroomProject.csproj", "{F34D4D75-89E6-4278-9574-22E25FBA4BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden", "Garden\Garden.csproj", "{CAC6D659-BC20-4102-81BF-2E6337DA5ED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B39059F7-BF26-46C1-9BC7-31D8D9D316AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39059F7-BF26-46C1-9BC7-31D8D9D316AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39059F7-BF26-46C1-9BC7-31D8D9D316AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39059F7-BF26-46C1-9BC7-31D8D9D316AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34D4D75-89E6-4278-9574-22E25FBA4BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34D4D75-89E6-4278-9574-22E25FBA4BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34D4D75-89E6-4278-9574-22E25FBA4BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34D4D75-89E6-4278-9574-22E25FBA4BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC6D659-BC20-4102-81BF-2E6337DA5ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC6D659-BC20-4102-81BF-2E6337DA5ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC6D659-BC20-4102-81BF-2E6337DA5ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC6D659-BC20-4102-81BF-2E6337DA5ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D262E9AC-D396-45EE-9576-68858C61962D}
+	EndGlobalSection
+EndGlobal
